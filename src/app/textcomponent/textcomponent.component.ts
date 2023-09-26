@@ -7,8 +7,7 @@ import { RecordsService } from '../records.service';
   providers: [RecordsService]
 })
 export class TextcomponentComponent implements OnInit {
-  // email: string;
-
+  
   infoReceived1: string[]=[];
   infoReceived2: string[]=[];
   infoReceived3: string[]=[];
