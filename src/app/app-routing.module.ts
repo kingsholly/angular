@@ -5,7 +5,7 @@ import { TextcomponentComponent } from './textcomponent/textcomponent.component'
 import { TodoComponent } from './Components/todo/todo.component';
 
 const routes: Routes = [
-
+  { path: '', redirectTo: '/home', pathMatch: 'full' },
   {path: "login", component: LoginComponent},
   {path: "home", component: TextcomponentComponent},
   {path: "todo", component: TodoComponent}
